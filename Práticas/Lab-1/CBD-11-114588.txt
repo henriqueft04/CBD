@@ -1,0 +1,81 @@
+ola
+set k23 "ola"
+k23
+get k23
+SADD
+SADD 1 john doe newyork
+1
+SMEMBERS 1
+scard 1
+SADD 2 joao ferreira lisb
+SMEMBERS 1
+SMEMBERS 
+SMEMBERS 2
+SMEMBERS 1
+SPOP 1
+SMEMBERS 1
+SDIFF 1
+SREM 1
+SREM 1 john
+SMEMBERS 1
+SREM 1 john
+SMEMBERS 1
+SREM 1 newyork
+SMEMBERS 1
+SMEMBERS 4
+DEL 2
+SMEMBERS 2
+SADD 2 joao ferreira lisb
+SADD 1 joao luis lisboa
+SADD 3 joao luis porto
+SDIFF 1 2
+SDIFF 2 3
+SDIFF 3 2
+SDIFF 1 3
+SDIFF 3 1
+SADD 3 joao miguel austria
+SMEMBERS 3
+SMEMBE 3
+SREM 3 joao miguel austria
+SMEMBERS 3
+SEXPIRE joao miguel austria
+EXPIRE joao miguel austria
+EXPIRE joao miguel austria 10
+EXPIRE 3 10
+SMEMBERS 3
+HMSET tutorialspoint name "redis tutorial" 
+HGETALL
+HGETALL tutorialspoint
+HMSET tutorialspoint name "redis tutorial" 
+HMSET tutorialspoint name "redis tutorial" pontos 100 alunos 10
+HGETALL tutorialspoint
+HINCRBY tutorialspoint alunos 20
+HGETALL tutorialspoint
+HKEYS tutorialspoint
+HLEN tutorialspoint
+HGET tutorialspoint alunos
+ZADD idk 1 jota
+ZADD idk 2 mongol
+ZCARD idk
+ZCOUNT idk 1 2
+ZCOUNT idk 2 1
+ZADD idk 3 louco
+ZCOUNT idk 1 3
+ZCOUNT idk 2 3
+ZCOUNT idk 3 3
+ZRANGE  idk 1 3
+ZRANGE  idk 0 4
+ZRANGE  idk 0 3
+ZRANGE  idk  1 4
+ZREMRANGEBYLEX idk 0 2
+ZREMRANGEBYLEX idk 1 3
+ZCARD idk
+ZRANGEBYLEX idk 1 3
+ZRANGEBYLEX idk 0 2
+ZRANGEBYLEX idk [0 [2 
+ZRANGEBYLEX idk [j [m 
+ZRANGEBYLEX idk [j [z
+ZRANGEBYLEX idk j z
+EVAL "return {KEYS[1], KEYS[2],ARGV[1],ARGV[2]}" jota, diogo, marca, champions
+EVAL "return {KEYS[1], KEYS[2],ARGV[1],ARGV[2]}" jota diogo marca champions
+EVAL "return {KEYS[1], KEYS[2],ARGV[1],ARGV[2]}" 2 jota diogo marca champions
