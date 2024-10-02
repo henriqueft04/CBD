@@ -25,7 +25,7 @@ public class PopularAutocomplete {
 
         // Leitura e inserção de dados no Redis
         try {
-            Scanner fileReader = new Scanner(new FileReader("Práticas/Lab-1/Ex 1.1-1.4/nomes-pt-2021.csv"));
+            Scanner fileReader = new Scanner(new FileReader("/home/henriqueft_04/CBD/Práticas/Lab-1/Ex 1.1-1.4/nomes-pt-2021.csv"));
 
             while (fileReader.hasNextLine()) {
                 String line = fileReader.nextLine();

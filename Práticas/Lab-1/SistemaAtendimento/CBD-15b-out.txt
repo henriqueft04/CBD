@@ -1,0 +1,33 @@
+Tentando pedir 5 unidades de Produto1 para Costa
+User Costa ordered 5 units of Produto1 at 1727878079
+Tentando pedir 10 unidades de Produto2 para Costa
+User Costa ordered 10 units of Produto2 at 1727878080
+Tentando pedir 3 unidades de Produto3 para Costa
+User Costa ordered 3 units of Produto3 at 1727878081
+Tentando pedir 7 unidades de Produto4 para Costa
+User Costa ordered 7 units of Produto4 at 1727878082
+Tentando pedir 8 unidades de Produto5 para Costa
+User Costa has ordered the maximum number of product units in the last 60 seconds.
+Pedidos de Costa nas últimas 60 segundos:
+Produto1:5
+Produto2:10
+Produto3:3
+Produto4:7
+Tentando pedir 5 unidades de Produto1 para Carlos
+User Carlos ordered 5 units of Produto1 at 1727878084
+Tentando pedir 10 unidades de Produto2 para Carlos
+User Carlos ordered 10 units of Produto2 at 1727878085
+Tentando pedir 3 unidades de Produto3 para Carlos
+User Carlos ordered 3 units of Produto3 at 1727878086
+Tentando pedir 7 unidades de Produto4 para Carlos
+User Carlos ordered 7 units of Produto4 at 1727878087
+Tentando pedir 8 unidades de Produto5 para Carlos
+User Carlos has ordered the maximum number of product units in the last 60 seconds.
+Pedidos de Carlos nas últimas 60 segundos:
+Produto1:5
+Produto2:10
+Produto3:3
+Produto4:7
+Simulação de pedidos concluída.
+
+Process finished with exit code 0

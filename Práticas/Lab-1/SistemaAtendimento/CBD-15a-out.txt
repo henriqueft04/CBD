@@ -1,0 +1,43 @@
+Tentando pedido: Produto1 para Carlos
+User Carlos ordered Produto1 at 1727878013
+Tentando pedido: Produto2 para Carlos
+User Carlos ordered Produto2 at 1727878014
+Tentando pedido: Produto3 para Carlos
+User Carlos ordered Produto3 at 1727878015
+Tentando pedido: Produto4 para Carlos
+User Carlos ordered Produto4 at 1727878016
+Tentando pedido: Produto5 para Carlos
+User Carlos ordered Produto5 at 1727878017
+Tentando pedido: Produto6 para Carlos
+User Carlos has ordered the maximum number of products
+Tentando pedido: Produto7 para Carlos
+User Carlos has ordered the maximum number of products
+Pedidos de Carlos nas últimas 10 segundos:
+Produto1
+Produto2
+Produto3
+Produto4
+Produto5
+Tentando pedido: Produto1 para Costa
+User Costa ordered Produto1 at 1727878020
+Tentando pedido: Produto2 para Costa
+User Costa ordered Produto2 at 1727878021
+Tentando pedido: Produto3 para Costa
+User Costa ordered Produto3 at 1727878022
+Tentando pedido: Produto4 para Costa
+User Costa ordered Produto4 at 1727878023
+Tentando pedido: Produto5 para Costa
+User Costa ordered Produto5 at 1727878024
+Tentando pedido: Produto6 para Costa
+User Costa has ordered the maximum number of products
+Tentando pedido: Produto7 para Costa
+User Costa has ordered the maximum number of products
+Pedidos de Costa nas últimas 10 segundos:
+Produto1
+Produto2
+Produto3
+Produto4
+Produto5
+Simulação de pedidos concluída.
+
+Process finished with exit code 0

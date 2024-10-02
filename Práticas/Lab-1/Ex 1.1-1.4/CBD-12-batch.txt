@@ -1,0 +1,14 @@
+SET QuimBarreiros "A Garagem da Vizinha"
+SET Emanuel "Pimba Pimba"
+SET TonyCarreira "Sonhos de Menino"
+SET RuthMarlen "Coisinha Sexy"
+EXISTS QuimBarreiros
+EXISTS Emanuel
+EXISTS Toy
+HSET Stats:QuimBarreiros plays 500 likes 250
+HSET Stats:Emanuel plays 1000 likes 800
+HSET Stats:TonyCarreira plays 8000 likes 6000
+HINCRBY Stats:QuimBarreiros plays 10
+HINCRBY Stats:Emanuel likes 20
+HINCRBY Stats:TonyCarreira plays 50
+SADD Tournee:QuimBarreiros "Feira de Santarém" "Festas de Almeirim" "Arraial de Pombal"
