@@ -21,7 +21,7 @@ public class Autocomplete {
         }
 
         try {
-            Scanner fileReader = new Scanner(new FileReader("Práticas/Lab-1/Jedis_Guide/names.txt"));
+            Scanner fileReader = new Scanner(new FileReader("Práticas/Lab-1/Ex 1.1-1.4/names.txt"));
 
             while (fileReader.hasNextLine()) {
                 String name = fileReader.nextLine();
