@@ -1,0 +1,74 @@
+--- Menu ---
+1. Adicionar Utilizador
+2. Seguir Utilizador
+3. Enviar Mensagem
+4. Mostrar Mensagens
+5. Mostrar Utilizadores
+6. Mostrar Seguidores
+7. Sair
+Escolha uma opção: 1
+Insira o nome do novo utilizador: Henrique
+User Henrique added
+
+--- Menu ---
+1. Adicionar Utilizador
+2. Seguir Utilizador
+3. Enviar Mensagem
+4. Mostrar Mensagens
+5. Mostrar Utilizadores
+6. Mostrar Seguidores
+7. Sair
+Escolha uma opção: 2
+Insira o nome do utilizador que vai seguir: Henrique
+Insira o nome do utilizador a seguir: Carlos Costa
+Henrique is now following Carlos Costa
+
+--- Menu ---
+1. Adicionar Utilizador
+2. Seguir Utilizador
+3. Enviar Mensagem
+4. Mostrar Mensagens
+5. Mostrar Utilizadores
+6. Mostrar Seguidores
+7. Sair
+Escolha uma opção: 3
+Insira o nome do utilizador que vai enviar a mensagem: Carlos Costa
+Insira a mensagem: Entreguem o guião!
+Carlos Costa: Entreguem o guião!
+
+--- Menu ---
+1. Adicionar Utilizador
+2. Seguir Utilizador
+3. Enviar Mensagem
+4. Mostrar Mensagens
+5. Mostrar Utilizadores
+6. Mostrar Seguidores
+7. Sair
+Escolha uma opção: 4
+Insira o nome do utilizador para mostrar as mensagens: Henrique
+Messages for Henrique
+
+--- Menu ---
+1. Adicionar Utilizador
+2. Seguir Utilizador
+3. Enviar Mensagem
+4. Mostrar Mensagens
+5. Mostrar Utilizadores
+6. Mostrar Seguidores
+7. Sair
+Escolha uma opção: 5
+Users
+Carlos Costa
+Henrique
+
+--- Menu ---
+1. Adicionar Utilizador
+2. Seguir Utilizador
+3. Enviar Mensagem
+4. Mostrar Mensagens
+5. Mostrar Utilizadores
+6. Mostrar Seguidores
+7. Sair
+Escolha uma opção: 7
+A sair...
+
