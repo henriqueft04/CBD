@@ -1,0 +1,35 @@
+Total of localidades: 5
+
+Localidade: null -> Total: 1
+Localidade: Queens -> Total: 738
+Localidade: Staten Island -> Total: 158
+Localidade: Brooklyn -> Total: 684
+Localidade: Manhattan -> Total: 1883
+Localidade: Bronx -> Total: 309
+
+Restaurants with name closer to 'Park':
+Restaurant name: Morris Park Bake Shop
+Restaurant name: New Park Pizzeria & Restaurant
+Restaurant name: Parkside Restaurant
+Restaurant name: New Parkway Restaurant
+Restaurant name: Park Plaza Restaurant
+Restaurant name: Pizza Park
+Restaurant name: Rego Park Cafe
+Restaurant name: Park Billiards
+Restaurant name: Dyker Park Bagels
+Restaurant name: Nora'S Park Bench Cafe
+Restaurant name: Forest Park Golf Course
+Restaurant name: Park Italian Gourment
+Restaurant name: Whiskey Park
+Restaurant name: Terrace On The Park
+Restaurant name: Gigino At Wagner Park
+Restaurant name: Park Slope Ale House
+Restaurant name: Tribeca Park Cafe
+Restaurant name: Park Bar
+Restaurant name: Morris Park Pizza
+Restaurant name: The Hallmark Of Battery Park City- Dining Room
+Restaurant name: The Park
+Restaurant name: Central Park Boathouse
+Restaurant name: The Park Slope Chipshop
+Restaurant name: Sunset Park Diner & Donuts
+Restaurant name: Park'S Snack

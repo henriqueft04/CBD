@@ -1,0 +1,37 @@
+As implementações em Redis e MongoDB têm várias diferenças.
+MongoDB é um banco de dados NoSQL orientado a documentos, armazena dados em formato BSON, o que facilita o trabalho com estruturas complexas.
+Adequado para aplicações que requerem persistência.
+Neste caso MongoDB é uma boa opção pela sua capacidade de armazenar e consultar documentos com muitas propriedasdes.
+
+Redis, por outro lado, é uma base de dados de chave-valor em memória que permite operações rápidas.
+Neste caso o Redis é usado para implementar um sistema, armazenando dados de forma temporária e realizando verificações rápidas de limite de pedidos usando estruturas como zset.
+
+Prós e Contras
+
+MongoDB:
+
+    Prós: Persistência dos dados, suporte para consultas complexas e flexibilidade no armazenamento de dados.
+    Contras: Menor desempenho em operações rápidas e de baixa latência, especialmente se comparado ao Redis em cenários intensivos de leitura/escrita em tempo real.
+
+Redis:
+
+    Prós: Alta velocidade e baixa latência, ideal para dados temporários e rápidos acessos.
+    Contras: Menos adequado para persistência de dados e suporte limitado a consultas complexas.
+
+Adequação ao Problema
+
+Redis:
+
+1. Tempo de escrita de 10 prdutos:
+        - "15 ms"
+
+2. Tempo de leitura de 10 produtos:
+        - "16 ms"
+
+MongoDB:
+
+1. Tempo de escrita de 10 prdutos:
+        - "70 ms"
+
+2. Tempo de leitura de 10 produtos:
+        - "5 ms"

@@ -1,0 +1,189 @@
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 1
+Insert user name:
+Henrique
+Phone number:
+915310103
+User Henrique added
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 2
+Insert product name:
+Leite
+Price:
+1.5
+Product Leite added
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 5
+Enter user name: Henrique
+Enter product name: Leite
+Enter quantity: 100
+Cannot purchase products: Limit of 30 units per timespan exceeded
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 5
+Enter user name: Henrique
+Enter product name: Leite
+Enter quantity: 10
+Product Leite (Quantity: 10) purchased by Henrique
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 6
+Enter user name: Henrique
+Product: Leite, Quantity: 10, Price per unit: 1.5€, Time left: 3592 seconds
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 5
+Enter user name: Carlos Costa
+Enter product name: Leite
+Enter quantity: 10
+User or product not found
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 8
+Enter user name: Henrique
+User Henrique removed
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 6
+Enter user name: Henrique
+User not found
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 9
+Enter product name: Leite
+Product Leite removed
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 4
+Product: prota, Price: 5.0€
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 3
+User: ric
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 0
+Exiting the system...
+

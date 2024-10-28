@@ -1,0 +1,60 @@
+// Henrique Teixeira 114588
+
+use dbTest
+switched to db dbTest
+dbTest> db.students.insertOne({_id:1, name:"ric", age:19, degree:"lei"})
+{ acknowledged: true, insertedId: 1 }
+dbTest> db.students.find()
+[ { _id: 1, name: 'ric', age: 19, degree: 'lei' } ]
+dbTest> dbTest> db.students.insertOne({_id:2, name:"ana", age:21, degree:"bio"}) 
+ReferenceError: dbTest is not defined
+dbTest> dbTest> db.students.insertOne({_id:2, name:"ana", age:21, degree:"bio"}) 
+ReferenceError: dbTest is not defined
+dbTest>  db.students.insertOne({_id:2, name:"ana", age:21, degree:"bio"})
+{ acknowledged: true, insertedId: 2 }
+dbTest> db.students.find({ age: { $gte: 19 } })
+[
+  { _id: 1, name: 'ric', age: 19, degree: 'lei' },
+  { _id: 2, name: 'ana', age: 21, degree: 'bio' }
+]
+dbTest> db.students.updateOne({_id:1}, { $set: { age: 20 } })
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+dbTest>  db.students.deleteOne({_id:2})
+{ acknowledged: true, deletedCount: 1 }
+dbTest> db.students.find({ degree: "bio" })
+
+dbTest> db.students.updateOne({ _id: 1 }, { $set: { age: 20 } })
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 0,
+  upsertedCount: 0
+}
+dbTest> db.students.updateOne({ name: "maria" }, { $set: { degree: "biochemistry" } })
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 0
+}
+dbTest> db.students.find()
+[ { _id: 1, name: 'ric', age: 20, degree: 'lei' } ]
+dbTest> db.students.countDocuments()
+1
+dbTest> db.students.aggregate([
+...   { $group: { _id: null, avgAge: { $avg: "$age" } } }
+... ])
+[ { _id: null, avgAge: 20 } ]
+dbTest> db.students.find({ name: { $regex: "^r" } })
+[ { _id: 1, name: 'ric', age: 20, degree: 'lei' } ]
+dbTest>  db.students.drop()
+true
+dbTest> 

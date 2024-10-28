@@ -1,4 +1,13 @@
-// Henrique Teixeira 114588
+/* global use, db */
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+// The result of the last command run in a playground is shown on the results panel.
+// By default the first 20 documents will be returned with a cursor.
+// Use 'console.log()' to print to the debug output.
+// For more documentation on playgrounds please refer to
+// https://www.mongodb.com/docs/mongodb-vscode/playgrounds/
 
 // Select the database to use.
 use('local');
@@ -86,17 +95,11 @@ use('local');
     // 18142
 
 //20. Apresente o nome e número de avaliações (numGrades) dos 3 restaurante com mais avaliações. 
-    db.restaurants.aggregate(
-        [{$unwind: "$grades"},
-        {$group: {_id: "$nome", numGrades: {$sum: 1}}},
-        {$sort: {numGrades: -1}}, {$limit: 3}])
+    db.restaurants.aggregate([{$unwind: "$grades"}, {$group: {_id: "$nome", numGrades: {$sum: 1}}}, {$sort: {numGrades: -1}}, {$limit: 3}])
     // [{"_id": "Starbucks Coffee", "numGrades": 424}, {"_id": "Mcdonald'S", "numGrades": 385}, {"_id": "Domino'S Pizza", "numGrades": 185}]
 
 //21. Apresente o número total de avaliações (numGrades) em cada dia da semana. 
-    db.restaurants.aggregate(
-    [{$unwind: "$grades"},
-     {$group: {_id: {$dayOfWeek: "$grades.date"}, numGrades: {$sum: 1}}},ç
-     {$sort: {"_id": 1}}])
+    db.restaurants.aggregate([{$unwind: "$grades"}, {$group: {_id: {$dayOfWeek: "$grades.date"}, numGrades: {$sum: 1}}}, {$sort: {"_id": 1}}])
     // [{"_id":1,"numGrades":7},{"_id":2,"numGrades":3186},{"_id":3,"numGrades":3878},{"_id":4,"numGrades":4118},{"_id":5,"numGrades":3984},{"_id":6,"numGrades":2440},{"_id":7,"numGrades":529}]
     
 //22. Conte o total de restaurante existentes em cada localidade. 

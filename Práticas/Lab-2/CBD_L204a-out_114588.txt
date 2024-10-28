@@ -1,0 +1,209 @@
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 1
+Insert user name:
+Henrique
+Phone number:
+915310103
+User Henrique added
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 2
+Insert product name:
+Arroz
+Price:
+2
+Product Arroz added
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 3
+{"_id": {"$oid": "672001bfa60d880d9d79ca2b"}, "name": "Henrique", "phone": "915310103", "products": []}
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 4
+{"_id": {"$oid": "672001c5a60d880d9d79ca2c"}, "name": "Arroz", "price": 2.0, "timestamp": 1730150853115}
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 5
+Enter user name: Henrique
+{"_id": {"$oid": "672001c5a60d880d9d79ca2c"}, "name": "Arroz", "price": 2.0, "timestamp": 1730150853115}
+Enter product name: Arroz
+Product Arroz bought by Henrique
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 6
+Enter user name: Henrique
+Product: Arroz Price: 2.0€ | Time left: 3572 seconds
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 7
+Enter user name: Henrique
+Enter product name: Arroz
+Product: Arroz Price: 2.0€
+Product Arroz removed from user Henrique
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 6
+Enter user name: Henrique
+User has no products
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 2
+Insert product name:
+Arroz
+Price:
+2
+Product already exists
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 5
+Enter user name: Henrique
+{"_id": {"$oid": "672001c5a60d880d9d79ca2c"}, "name": "Arroz", "price": 2.0, "timestamp": 1730150853115}
+Enter product name: Arroz
+Product Arroz bought by Henrique
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 8
+Enter user name: Henrique
+User Henrique removed
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 9
+Enter product name: Arroz
+Product Arroz removed
+
+===== Sistema de Atendimento =====
+1. Add User
+2. Add Product
+3. List Users
+4. List Products
+5. Buy Product
+6. List User's Products
+7. Remove Product from User
+8. Remove User
+9. Remove Product
+0. Exit
+Enter your choice: 0
+Exiting the system...
+
+
+Process finished with exit code 0
