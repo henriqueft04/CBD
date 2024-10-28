@@ -1,4 +1,4 @@
-package pt.ua.deti.ies;
+package pt.ua.deti.cbd;
 
 import com.mongodb.client.*;
 import com.mongodb.client.model.Aggregates;

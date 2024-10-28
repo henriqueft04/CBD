@@ -1,4 +1,4 @@
-package pt.ua.deti.ies;
+package pt.ua.deti.cbd;
 
 class Restaurant{
     public String id;
