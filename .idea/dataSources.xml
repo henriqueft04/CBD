@@ -13,5 +13,19 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Casandra_testing" uuid="b3e3df9a-aab8-41be-ae04-974ede17159f">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.ing.data.cassandra.jdbc.CassandraDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://172.17.0.2:9042</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="cassandra_cbd" uuid="8bafdb35-ca32-452d-ab25-870f787c9bd3">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.ing.data.cassandra.jdbc.CassandraDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://127.0.0.1:9042</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

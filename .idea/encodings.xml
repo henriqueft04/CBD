@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Práticas/Lab-1/Ex 1.1-1.4/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Práticas/Lab-1/Ex 1.1-1.4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Práticas/Lab-2/MongoDB-Driver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Práticas/Lab-2/MongoDB-Driver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Práticas/Lab-2/SistemaAtendimento/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Práticas/Lab-2/SistemaAtendimento/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,231 @@
+USE store;
+SELECT * FROM shopping_cart;
+SELECT * FROM store.shopping_cart WHERE userid = '9876';
+SELECT * FROM store.shopping_cart WHERE userid = '1234';
+UPDATE store.shopping_cart
+    SET item_count = 3, last_update_timestamp = toTimeStamp(now())
+    WHERE userid = '9876';
+DELETE FROM store.shopping_cart WHERE userid = '1234';
+SELECT COUNT(*) FROM store.shopping_cart;
+SELECT * FROM store.shopping_cart
+    WHERE last_update_timestamp > '2024-01-01 00:00:00' AND last_update_timestamp < '2024-12-31 23:59:59' ALLOW FILTERING;
+
+
+### Cassandra (CQL) Cheat Sheet
+
+#### Keyspace Operations
+- **Create Keyspace**
+  - Cria uma keyspace se não existir
+  - **Sintaxe:**
+    ```cql
+    CREATE KEYSPACE IF NOT EXISTS keyspace_name WITH REPLICATION =
+    { 'class' : 'SimpleStrategy', 'replication_factor' : '1' };
+    ```
+  - **Parâmetros:**
+    - `class`: Estratégia de replicação (e.g., `SimpleStrategy`)
+    - `replication_factor`: Número de réplicas
+
+- **Use Keyspace**
+  - Define a keyspace a ser usada nas operações subsequentes
+  - **Sintaxe:**
+    ```cql
+    USE keyspace_name;
+    ```
+
+- **List All Keyspaces**
+  - Lista todas as keyspaces existentes
+  - **Sintaxe:**
+    ```cql
+    DESCRIBE KEYSPACES;
+    ```
+
+- **Drop Keyspace**
+  - Remove uma keyspace existente
+  - **Sintaxe:**
+    ```cql
+    DROP KEYSPACE keyspace_name;
+    ```
+
+---
+
+#### Table Operations
+- **Create Table**
+  - Cria uma tabela dentro de uma keyspace
+  - **Sintaxe:**
+    ```cql
+    CREATE TABLE IF NOT EXISTS keyspace_name.table_name (
+        id UUID PRIMARY KEY,
+        column1 TEXT,
+        column2 INT
+    );
+    ```
+  - **Componentes:**
+    - `PRIMARY KEY`: Define a chave primária
+    - `UUID`, `TEXT`, `INT`: Tipos de dados
+
+- **List All Tables in Keyspace**
+  - Lista todas as tabelas dentro da keyspace atual
+  - **Sintaxe:**
+    ```cql
+    DESCRIBE TABLES;
+    ```
+
+- **Describe Table Structure**
+  - Exibe a estrutura detalhada de uma tabela
+  - **Sintaxe:**
+    ```cql
+    DESCRIBE TABLE keyspace_name.table_name;
+    ```
+
+- **Drop Table**
+  - Remove uma tabela existente
+  - **Sintaxe:**
+    ```cql
+    DROP TABLE keyspace_name.table_name;
+    ```
+
+---
+
+#### Data Manipulation (CRUD Operations)
+- **Insert Data**
+  - Insere uma nova linha na tabela
+  - **Sintaxe:**
+    ```cql
+    INSERT INTO keyspace_name.table_name (id, column1, column2)
+    VALUES (uuid(), 'value1', 123);
+    ```
+
+- **Select Data**
+  - **Select All Rows:**
+    - Seleciona todas as linhas da tabela
+    - **Sintaxe:**
+      ```cql
+      SELECT * FROM keyspace_name.table_name;
+      ```
+
+  - **Select Specific Columns:**
+    - Seleciona colunas específicas
+    - **Sintaxe:**
+      ```cql
+      SELECT column1, column2 FROM keyspace_name.table_name;
+      ```
+
+  - **Conditional Select:**
+    - Seleciona linhas com condição
+    - **Sintaxe:**
+      ```cql
+      SELECT * FROM keyspace_name.table_name WHERE column1 = 'value1';
+      ```
+
+- **Update Data**
+  - Atualiza dados existentes
+  - **Sintaxe:**
+    ```cql
+    UPDATE keyspace_name.table_name
+    SET column2 = 456
+    WHERE id = uuid_value;
+    ```
+
+- **Delete Data**
+  - **Delete Specific Row:**
+    - Remove uma linha específica
+    - **Sintaxe:**
+      ```cql
+      DELETE FROM keyspace_name.table_name WHERE id = uuid_value;
+      ```
+
+  - **Delete Specific Column from Row:**
+    - Remove um valor específico de uma coluna na linha
+    - **Sintaxe:**
+      ```cql
+      DELETE column1 FROM keyspace_name.table_name WHERE id = uuid_value;
+      ```
+
+---
+
+#### Functions and Data Types
+- **Common Data Types**
+  - `TEXT`: Dados de texto
+  - `INT`: Inteiro
+  - `UUID`: Identificador Único Universal
+  - `TIMESTAMP`: Data e hora
+
+- **Common Functions**
+  - **Generate UUID:**
+    - Gera um UUID único
+    - **Sintaxe:**
+      ```cql
+      uuid()
+      ```
+
+  - **Current Timestamp:**
+    - Obtém o timestamp atual
+    - **Sintaxe:**
+      ```cql
+      toTimestamp(now())
+      ```
+
+---
+
+#### Aggregation
+- **Count Rows**
+  - Conta o número de linhas na tabela
+  - **Sintaxe:**
+    ```cql
+    SELECT COUNT(*) FROM keyspace_name.table_name;
+    ```
+
+---
+
+#### Indexing
+- **Create Index**
+  - Cria um índice em uma coluna específica
+  - **Sintaxe:**
+    ```cql
+    CREATE INDEX IF NOT EXISTS index_name ON keyspace_name.table_name (column_name);
+    ```
+
+- **Drop Index**
+  - Remove um índice existente
+  - **Sintaxe:**
+    ```cql
+    DROP INDEX IF EXISTS keyspace_name.index_name;
+    ```
+
+---
+
+#### Advanced Commands
+- **Filtering (With Caution)**
+  - Usa `ALLOW FILTERING` para consultas que não utilizam índices
+  - **Atenção:** Pode ser intensivo em recursos para grandes conjuntos de dados
+  - **Sintaxe:**
+    ```cql
+    SELECT * FROM keyspace_name.table_name
+    WHERE column_name = 'value' ALLOW FILTERING;
+    ```
+
+- **Batch Operations**
+  - Executa múltiplas operações em lote
+  - **Sintaxe:**
+    ```cql
+    BEGIN BATCH
+      INSERT INTO keyspace_name.table_name (id, column1) VALUES (uuid(), 'value1');
+      UPDATE keyspace_name.table_name SET column2 = 789 WHERE id = uuid_value;
+    APPLY BATCH;
+    ```
+
+---
+
+#### Key Points
+- **Primary Key:**
+  - Define o identificador único para as linhas
+  - Pode ser composto por múltiplas colunas
+
+- **Partition Key:**
+  - Primeira parte da chave primária
+  - Usada para distribuição de dados
+
+- **Clustering Columns:**
+  - Especificam a ordenação dentro de uma partição
+
+---

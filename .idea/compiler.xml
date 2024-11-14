@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jedis_Guide" />
+        <module name="MongoDB-Driver" />
+        <module name="SistemaAtendimento" />
       </profile>
     </annotationProcessing>
   </component>
