@@ -1,0 +1,842 @@
+[
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:54:38.018",
+    "comment_id": "a5a31d0a-9fe0-4564-ad38-46bcba85c687",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:53:01.728",
+    "comment_id": "849d7b43-818e-422d-a781-a9b0f909e85e",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:51:15.601",
+    "comment_id": "3c6ce1b7-b4cf-482f-90af-56d5ea1262b0",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:45:50.556",
+    "comment_id": "6b0c4b82-4e90-4e58-ada2-629635c83f3b",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:35:17.564",
+    "comment_id": "7ef93212-fd63-4697-83d4-7325083501fa",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:18:46.647",
+    "comment_id": "1024678b-88cd-4538-a56e-9aeca0811b85",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2024-11-27 10:13:09.456",
+    "comment_id": "0a4fd91a-921f-496a-8c5e-3dd6b01a411f",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2017-11-11 10:40:00.000",
+    "comment_id": "3fac8aa4-449f-47af-a7a9-be3ad1b57d6d",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2017-11-11 10:40:00.000",
+    "comment_id": "832cfa61-b645-4529-9573-a3b61f6f4f8b",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2017-11-11 10:40:00.000",
+    "comment_id": "a4a72d94-3ef2-4305-9beb-fe7951f69a11",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2017-11-11 10:40:00.000",
+    "comment_id": "e09f0c5f-4436-4602-b43b-02afd77a279b",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "comment_date": "2017-11-11 10:40:00.000",
+    "comment_id": "ec53bc5e-5eb1-4a82-afeb-d0aa36956ca9",
+    "comment": "Receitas deliciosas e saudáveis!",
+    "user": "marco_pereira"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:54:38.009",
+    "comment_id": "7466f53f-f14a-4b69-92e7-7369bad35bdd",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:53:01.721",
+    "comment_id": "a03a0ece-63a8-4002-bcbb-195affb7eb0b",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:51:15.585",
+    "comment_id": "221edb55-d97c-4d90-adf5-ddd3e3d64a0b",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:45:50.543",
+    "comment_id": "e3d88509-7e13-408f-8c48-12986d25f099",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:35:17.549",
+    "comment_id": "f55af9db-f54f-4cb7-ad68-369b5427fe93",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:18:46.633",
+    "comment_id": "ab27308d-5779-406f-96c7-1f1dde618ac4",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2024-11-27 10:13:09.441",
+    "comment_id": "2389de0f-7217-4d78-8679-cb45a86c87eb",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2017-10-26 12:55:00.000",
+    "comment_id": "21fa3091-7d93-405e-8f28-471c655a4960",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2017-10-26 12:55:00.000",
+    "comment_id": "49fe4313-3321-4fb7-a7ee-d4f53f44a6a8",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2017-10-26 12:55:00.000",
+    "comment_id": "7d2e28a4-77b5-4d3c-acc8-56d8cf73ce81",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2017-10-26 12:55:00.000",
+    "comment_id": "aba64b4b-9ab5-4b89-aef4-0fa14f1e3371",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "comment_date": "2017-10-26 12:55:00.000",
+    "comment_id": "c5300bd9-b28b-4099-9b2a-694f22dcc998",
+    "comment": "Muito relaxante, gostei!",
+    "user": "carlos_dias"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:54:38.005",
+    "comment_id": "2740b80c-94a1-4e67-b1b2-7bcfc52a770a",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:53:01.716",
+    "comment_id": "40945eb8-9e59-4ebf-8d2e-543fbe4d0858",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:51:15.581",
+    "comment_id": "8c7bf475-a6d1-4b64-a30b-479a3b152042",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:45:50.537",
+    "comment_id": "7f3ac144-a13a-4bd5-be13-0e3257ba6be1",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:35:17.541",
+    "comment_id": "75c6b17f-6192-4c55-9f9d-67b77e7f598f",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:18:46.627",
+    "comment_id": "d029f863-0ff0-47ca-8260-59bba9bffb2e",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2024-11-27 10:13:09.434",
+    "comment_id": "d6551353-fc7e-4da2-8351-c2892cda702c",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2017-10-21 09:25:00.000",
+    "comment_id": "070cd954-102d-46a2-b476-9c674b465243",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2017-10-21 09:25:00.000",
+    "comment_id": "1dbd1dd1-e78c-429a-b1b1-49c6733c4e42",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2017-10-21 09:25:00.000",
+    "comment_id": "371aa814-acdc-47ba-bafe-5f8521e32b99",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2017-10-21 09:25:00.000",
+    "comment_id": "9ad4ce56-ce04-4ff1-aa5d-010df42938ec",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "comment_date": "2017-10-21 09:25:00.000",
+    "comment_id": "d2f98394-1c24-45ae-a758-0a15125c730c",
+    "comment": "Aprender Python nunca foi tão fácil.",
+    "user": "renata_ferreira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:54:37.989",
+    "comment_id": "ae274b61-0827-4a76-8f7c-fd1f3f798ce8",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:53:01.698",
+    "comment_id": "17cae625-7c57-4f93-937e-4f7228a17f4a",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:51:15.564",
+    "comment_id": "dd6bd3be-0470-4688-98f5-e29db3844f6f",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:45:50.511",
+    "comment_id": "4d9df309-32ac-4052-bbc3-4cc44ac82a6f",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:35:17.506",
+    "comment_id": "b3bfd4ca-7d93-4007-9ddc-996f75fac9c4",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:18:46.598",
+    "comment_id": "8bc65cc4-e1f2-4184-9ebc-7cb6d4876d9b",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2024-11-27 10:13:09.403",
+    "comment_id": "7370ce64-9cd9-47b7-b9e1-31d1199f717c",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2017-10-02 14:30:00.000",
+    "comment_id": "0794e679-7bf8-434a-b410-ea523c72bd30",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2017-10-02 14:30:00.000",
+    "comment_id": "4aaa4f65-f449-438c-8ddd-3a4bc57883e8",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2017-10-02 14:30:00.000",
+    "comment_id": "4cf0853d-7ab1-4584-a69e-93a2621f5a72",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2017-10-02 14:30:00.000",
+    "comment_id": "8225acf4-ff7f-4035-95f6-dd0469be14b0",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "comment_date": "2017-10-02 14:30:00.000",
+    "comment_id": "b4bf3e3b-9160-46be-8079-d2e08c85fa67",
+    "comment": "Muito informativo, obrigado!",
+    "user": "maria_oliveira"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:54:37.998",
+    "comment_id": "f3c8e907-53e6-48f9-8986-450038f09436",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:53:01.704",
+    "comment_id": "968c41ac-a38c-4254-a385-18dafd6e04f6",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:51:15.572",
+    "comment_id": "2a7a30a2-b503-4dad-a2d3-5aa9471b3294",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:45:50.524",
+    "comment_id": "d98eb231-f495-4746-a356-e6a976513d7d",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:35:17.525",
+    "comment_id": "62472677-846c-4b86-bc7e-5a95006e2301",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:18:46.613",
+    "comment_id": "8248fbc4-2117-46c8-8dfd-6d9e4d1ad366",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2024-11-27 10:13:09.418",
+    "comment_id": "82ff72b5-d988-43fb-8fc0-4886c89a9ed8",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2017-10-11 09:50:00.000",
+    "comment_id": "48accbf4-0938-4b21-89dc-a96fea7ccdb6",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2017-10-11 09:50:00.000",
+    "comment_id": "6378ba14-981f-412a-a74a-31604d9f571c",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2017-10-11 09:50:00.000",
+    "comment_id": "756ac015-81cd-4871-b035-91d1ea5ef903",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2017-10-11 09:50:00.000",
+    "comment_id": "9aee69ef-e373-4d09-a349-41d157039c17",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "comment_date": "2017-10-11 09:50:00.000",
+    "comment_id": "a38c2924-70fe-4155-9207-042c3c58f79f",
+    "comment": "Agora sei montar meu PC!",
+    "user": "pedro_gomes"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:54:38.001",
+    "comment_id": "39f14fdc-25bd-44d0-a3b4-2d411398969b",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:53:01.710",
+    "comment_id": "e8db7627-c3c6-4475-82ad-860ff9820756",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:51:15.577",
+    "comment_id": "2e4c41d2-8cac-407b-8914-86109b4d1e3b",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:45:50.531",
+    "comment_id": "463af3a0-4c6c-4662-92d0-38b4fdb28871",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:35:17.533",
+    "comment_id": "bcd5dd6f-d095-4173-9160-4aca266bbec8",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:18:46.620",
+    "comment_id": "305d5c55-b6a0-40ed-9c64-0e951acd386b",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2024-11-27 10:13:09.426",
+    "comment_id": "59dd9464-e8fa-4cf5-a846-9965b815c5ba",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2017-10-16 12:35:00.000",
+    "comment_id": "2d514044-2c24-4563-84ac-8dac5ffe6a92",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2017-10-16 12:35:00.000",
+    "comment_id": "77e6b074-e7f9-4295-bc9a-e399c6c729e2",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2017-10-16 12:35:00.000",
+    "comment_id": "cd3b2015-c198-4e94-8134-c2a94fcf0848",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2017-10-16 12:35:00.000",
+    "comment_id": "db662479-9e2f-40e4-b453-a0b6f118981a",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "comment_date": "2017-10-16 12:35:00.000",
+    "comment_id": "f1f0688e-6121-4ff0-8359-09b62a91ba6f",
+    "comment": "Perfeito para viagens com crianças!",
+    "user": "lucas_martins"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:54:38.013",
+    "comment_id": "df191dde-9c18-48d8-8ee7-4eee4d024c7d",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:53:01.725",
+    "comment_id": "d663758a-3fd3-471e-9706-10d52640127b",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:51:15.597",
+    "comment_id": "fb30a8e7-a46f-4688-93db-267da79c1886",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:45:50.549",
+    "comment_id": "e6b80811-1495-4ac2-97f2-2df6ca770736",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:35:17.555",
+    "comment_id": "4cc6e354-cba0-468d-96f0-6cc99eaddf95",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:18:46.641",
+    "comment_id": "f7b0807f-f240-4217-a639-95301fe4a89b",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2024-11-27 10:13:09.449",
+    "comment_id": "bef8673a-a3cf-445d-ae63-d083d8b20805",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2017-10-31 15:10:00.000",
+    "comment_id": "55f6191f-c398-4d1d-801f-4a9a816bfa00",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2017-10-31 15:10:00.000",
+    "comment_id": "6321468c-ae58-4a10-8133-6b866dda34d9",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2017-10-31 15:10:00.000",
+    "comment_id": "74a4bd4a-e1f5-40eb-9738-7ae2786b57c9",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2017-10-31 15:10:00.000",
+    "comment_id": "8ecec412-45d4-46ab-9200-f66d51dffafb",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "comment_date": "2017-10-31 15:10:00.000",
+    "comment_id": "d39047e4-5019-43b4-bbb5-e4e0ccce7efb",
+    "comment": "Desenho incrível!",
+    "user": "bianca_rosa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:54:37.983",
+    "comment_id": "26155b56-42d2-44be-8c6b-d011109b61f5",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:54:37.979",
+    "comment_id": "4b8bb60a-1307-4e3b-9d48-58d47f277e75",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:53:01.694",
+    "comment_id": "247b119f-14ef-4441-8a4f-dc34d117683f",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:53:01.688",
+    "comment_id": "0d8694c7-4f64-4ab5-8fb5-0b069d8cab85",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:51:15.558",
+    "comment_id": "f6a9987a-89f9-4501-b4b4-998f7d122545",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:51:15.555",
+    "comment_id": "441b7327-0aa6-4677-b85e-bee1bce392b0",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:45:50.504",
+    "comment_id": "f93ee27e-f56d-461b-962f-0d6d25a7eb42",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:45:50.498",
+    "comment_id": "252860bb-fa92-4e8f-a3ce-17dfbf105b6a",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:35:17.497",
+    "comment_id": "5923d608-d1dd-4789-9c11-c83696140a44",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:35:17.489",
+    "comment_id": "79f14fbe-e198-44ee-b535-21db36886048",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:18:46.591",
+    "comment_id": "e93a18f7-4ee7-4b8b-ad07-06975f730e47",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:18:46.580",
+    "comment_id": "f20c021e-0cd2-4b25-acdc-792c93415d63",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:13:09.396",
+    "comment_id": "36af264f-a7f5-4938-b872-17db9f05e6f7",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2024-11-27 10:13:09.386",
+    "comment_id": "16198383-8f6f-41a7-bd21-4de6ab62cecd",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-03 11:20:00.000",
+    "comment_id": "1e14d81d-723a-4ae6-956e-163a881d7991",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-03 11:20:00.000",
+    "comment_id": "6d71cb3c-5fe4-4f3c-ad86-2c4f85734df2",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-03 11:20:00.000",
+    "comment_id": "8295736a-8e89-4348-ac89-296f8f44f77b",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-03 11:20:00.000",
+    "comment_id": "e7ccbec3-0ec8-45e3-af7d-bd3116e1391a",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-03 11:20:00.000",
+    "comment_id": "fa7e7b3d-2d58-4054-9865-b60830888c17",
+    "comment": "Adorei as dicas de pão!",
+    "user": "clara_costa"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-02 10:15:00.000",
+    "comment_id": "621ebcfb-54f5-429b-b03b-13a697155514",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-02 10:15:00.000",
+    "comment_id": "7c206690-bb26-4bbf-b391-b61db7b7ce2f",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-02 10:15:00.000",
+    "comment_id": "8775f804-58f0-4e22-a4bc-340737fd6b7d",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-02 10:15:00.000",
+    "comment_id": "d17ad897-e2a4-4618-b08a-4b008604cf40",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "comment_date": "2017-08-02 10:15:00.000",
+    "comment_id": "ff4d122f-d296-4e04-98a1-8ab443b7194d",
+    "comment": "Ótimo vídeo, muito útil!",
+    "user": "joao_santos"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:54:37.993",
+    "comment_id": "8f548c97-cfd1-425f-9d3f-5482d96ee6f1",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:53:01.701",
+    "comment_id": "09824b49-e4dc-487d-9b5d-0b66b622d276",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:51:15.567",
+    "comment_id": "58e94da9-e756-488b-8859-bb6485e1be81",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:45:50.518",
+    "comment_id": "41ab2c4a-7eb9-4c46-a02e-f09d02fa3e59",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:35:17.516",
+    "comment_id": "35d8e95d-5055-4e93-90b9-7ad01647eae0",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:18:46.606",
+    "comment_id": "e6b8fc6e-a34f-4501-9a1a-3c09b3ccd2b1",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2024-11-27 10:13:09.411",
+    "comment_id": "4b8f126b-4006-4000-9fde-0ef80141b69d",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2017-10-06 16:45:00.000",
+    "comment_id": "45ad87de-4aa5-497f-93ed-9e6b61ea3e0b",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2017-10-06 16:45:00.000",
+    "comment_id": "776a100a-247d-432b-b1c5-7ad1480958ea",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2017-10-06 16:45:00.000",
+    "comment_id": "f9ed7507-6374-47ff-88a3-7e2c401a84e2",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2017-10-06 16:45:00.000",
+    "comment_id": "facebfcc-faac-4071-ba31-06f82958a00d",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "comment_date": "2017-10-06 16:45:00.000",
+    "comment_id": "fba8420f-7ee8-411d-a500-ba32cab63dbe",
+    "comment": "Excelentes exercícios!",
+    "user": "ana_silva"
+  }
+]

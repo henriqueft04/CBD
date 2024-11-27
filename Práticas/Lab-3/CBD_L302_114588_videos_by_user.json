@@ -1,0 +1,98 @@
+[
+  {
+    "user": "marco_pereira",
+    "upload_date": "2017-11-10 09:50:00.000",
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "description": "Receitas deliciosas com vegetais.",
+    "tags": "[culinária, saúde]",
+    "title": "Cozinhando com Vegetais"
+  },
+  {
+    "user": "lucas_martins",
+    "upload_date": "2017-10-20 09:10:00.000",
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "description": "Curso básico de fotografia.",
+    "tags": "[fotografia, tutorial]",
+    "title": "Fotografia para Iniciantes"
+  },
+  {
+    "user": "pedro_gomes",
+    "upload_date": "2017-10-01 14:00:00.000",
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "description": "Exploração dos principais movimentos da arte moderna.",
+    "tags": "[arte, educação]",
+    "title": "A História da Arte Moderna"
+  },
+  {
+    "user": "bianca_rosa",
+    "upload_date": "2017-11-05 10:25:00.000",
+    "video_id": "99999999-9999-9999-9999-999999999999",
+    "description": "Técnicas avançadas de desenho digital.",
+    "tags": "[arte, tecnologia]",
+    "title": "Desenho Digital Avançado"
+  },
+  {
+    "user": "renata_ferreira",
+    "upload_date": "2017-10-25 11:55:00.000",
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "description": "Introdução à programação com Python.",
+    "tags": "[programação, tecnologia]",
+    "title": "Aprendendo Python"
+  },
+  {
+    "user": "clara_costa",
+    "upload_date": "2017-10-15 12:20:00.000",
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "description": "Sugestões práticas para viagens em família.",
+    "tags": "[família, viagem]",
+    "title": "Dicas para Viajar Com Crianças"
+  },
+  {
+    "user": "ana_silva",
+    "upload_date": "2017-08-01 10:00:00.000",
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "description": "Um guia passo a passo para fazer pão em casa.",
+    "tags": "[Aveiro, culinária, tutorial]",
+    "title": "Como fazer pão caseiro"
+  },
+  {
+    "user": "ana_silva",
+    "upload_date": "2017-08-31 11:00:00.000",
+    "video_id": "11111111-1111-1111-1111-111111111112",
+    "description": "Um guia passo a passo para fazer pão em fábrica.",
+    "tags": "[Aveiro, culinária, tutorial]",
+    "title": "Como fazer pão industrial"
+  },
+  {
+    "user": "ana_silva",
+    "upload_date": "2017-09-20 09:30:00.000",
+    "video_id": "11111111-1111-1111-1111-111111111113",
+    "description": "Um guia passo a passo para fazer panquecas que conquistam qualquer um.",
+    "tags": "[culinária, tutorial]",
+    "title": "Como fazer panquecas de Albufeira"
+  },
+  {
+    "user": "carlos_dias",
+    "upload_date": "2017-10-30 14:40:00.000",
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "description": "Sessões de meditação para iniciantes.",
+    "tags": "[bem-estar, saúde]",
+    "title": "Meditação Guiada"
+  },
+  {
+    "user": "joao_santos",
+    "upload_date": "2017-10-10 08:45:00.000",
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "description": "Aprenda a montar o seu próprio computador passo a passo.",
+    "tags": "[tecnologia, tutorial]",
+    "title": "Como Montar um Computador"
+  },
+  {
+    "user": "maria_oliveira",
+    "upload_date": "2017-10-05 16:30:00.000",
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "description": "Exercícios rápidos e fáceis para perder peso.",
+    "tags": "[fitness, saúde]",
+    "title": "10 Melhores Exercícios para Perder Peso"
+  }
+]

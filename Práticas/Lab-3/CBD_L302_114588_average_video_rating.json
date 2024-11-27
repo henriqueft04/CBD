@@ -1,0 +1,52 @@
+[
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "avg_rating": 4.3,
+    "total_ratings": 11
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "avg_rating": 4.8,
+    "total_ratings": 15
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "avg_rating": 4,
+    "total_ratings": 7
+  },
+  {
+    "video_id": "99999999-9999-9999-9999-999999999999",
+    "avg_rating": 4.7,
+    "total_ratings": 14
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "avg_rating": 4,
+    "total_ratings": 8
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "avg_rating": 3.5,
+    "total_ratings": 6
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "avg_rating": 4.5,
+    "total_ratings": 10
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "avg_rating": 4.2,
+    "total_ratings": 9
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "avg_rating": 4.5,
+    "total_ratings": 10
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "avg_rating": 4.5,
+    "total_ratings": 12
+  }
+]

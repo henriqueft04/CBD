@@ -1,0 +1,52 @@
+[
+  {
+    "video_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "user": "marco_pereira",
+    "user_timestamp": "2017-11-11 09:50:00.000"
+  },
+  {
+    "video_id": "77777777-7777-7777-7777-777777777777",
+    "user": "renata_ferreira",
+    "user_timestamp": "2017-10-26 12:55:00.000"
+  },
+  {
+    "video_id": "66666666-6666-6666-6666-666666666666",
+    "user": "lucas_martins",
+    "user_timestamp": "2017-10-21 09:25:00.000"
+  },
+  {
+    "video_id": "99999999-9999-9999-9999-999999999999",
+    "user": "bianca_rosa",
+    "user_timestamp": "2017-11-06 10:30:00.000"
+  },
+  {
+    "video_id": "22222222-2222-2222-2222-222222222222",
+    "user": "clara_costa",
+    "user_timestamp": "2017-10-03 11:30:00.000"
+  },
+  {
+    "video_id": "44444444-4444-4444-4444-444444444444",
+    "user": "maria_oliveira",
+    "user_timestamp": "2017-10-11 16:50:00.000"
+  },
+  {
+    "video_id": "55555555-5555-5555-5555-555555555555",
+    "user": "ana_silva",
+    "user_timestamp": "2017-10-16 12:35:00.000"
+  },
+  {
+    "video_id": "88888888-8888-8888-8888-888888888888",
+    "user": "carlos_dias",
+    "user_timestamp": "2017-10-31 15:10:00.000"
+  },
+  {
+    "video_id": "11111111-1111-1111-1111-111111111111",
+    "user": "joao_santos",
+    "user_timestamp": "2017-08-02 10:20:00.000"
+  },
+  {
+    "video_id": "33333333-3333-3333-3333-333333333333",
+    "user": "pedro_gomes",
+    "user_timestamp": "2017-10-06 14:45:00.000"
+  }
+]

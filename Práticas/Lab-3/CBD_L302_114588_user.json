@@ -1,0 +1,62 @@
+[
+  {
+    "username": "marco_pereira",
+    "email": "marco.pereira@gmail.com",
+    "name": "Marco Pereira",
+    "register_date": "2017-09-05 09:00:00.000"
+  },
+  {
+    "username": "lucas_martins",
+    "email": "lucas.martins@gmail.com",
+    "name": "Lucas Martins",
+    "register_date": "2017-08-15 08:30:00.000"
+  },
+  {
+    "username": "pedro_gomes",
+    "email": "pedro.gomes@yahoo.com",
+    "name": "Pedro Gomes",
+    "register_date": "2017-07-20 11:30:00.000"
+  },
+  {
+    "username": "bianca_rosa",
+    "email": "bianca.rosa@hotmail.com",
+    "name": "Bianca Rosa",
+    "register_date": "2017-09-01 10:15:00.000"
+  },
+  {
+    "username": "renata_ferreira",
+    "email": "renata.ferreira@yahoo.com",
+    "name": "Renata Ferreira",
+    "register_date": "2017-08-20 12:10:00.000"
+  },
+  {
+    "username": "clara_costa",
+    "email": "clara.costa@gmail.com",
+    "name": "Clara Costa",
+    "register_date": "2017-08-10 16:50:00.000"
+  },
+  {
+    "username": "ana_silva",
+    "email": "ana.silva@gmail.com",
+    "name": "Ana Silva",
+    "register_date": "2017-07-15 10:00:00.000"
+  },
+  {
+    "username": "carlos_dias",
+    "email": "carlos.dias@outlook.com",
+    "name": "Carlos Dias",
+    "register_date": "2017-08-25 13:40:00.000"
+  },
+  {
+    "username": "joao_santos",
+    "email": "joao.santos@hotmail.com",
+    "name": "João Santos",
+    "register_date": "2017-08-05 14:20:00.000"
+  },
+  {
+    "username": "maria_oliveira",
+    "email": "maria.oliveira@outlook.com",
+    "name": "Maria Oliveira",
+    "register_date": "2017-07-25 09:45:00.000"
+  }
+]
