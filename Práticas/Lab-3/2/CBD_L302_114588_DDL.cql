@@ -104,8 +104,8 @@ CREATE TABLE IF NOT EXISTS videos.events_by_user (
     video_id uuid,
     event_date timestamp,
     event_type text,
-    PRIMARY KEY (user, video_id, event_date)
-);
+    PRIMARY KEY ((user, video_id), event_date)
+) WITH CLUSTERING ORDER BY (event_date DESC);
 
 DROP INDEX IF EXISTS event_type_idx;
 CREATE INDEX event_type_idx ON videos.events_by_user(event_type);
