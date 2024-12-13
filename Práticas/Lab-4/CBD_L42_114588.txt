@@ -1,0 +1,160 @@
+// NEO4J Queries
+
+# 1. Encontre todos os atores que dirigiram um filme em que também atuaram e apresente o nome do ator e o título do filme.
+
+match (ator_diretor:Person)-[:ACTED_IN]->(m)<-[:DIRECTED]-(ator_diretor) return ator_diretor.name
+
+# 2. Para cada filme realizado depois de 2005, apresente os nomes de todos os atores que atuaram nesse filme.
+
+match (doismil:Movie)<-[:ACTED_IN]-(atores:Person)
+ where doismil.released > 2005
+ return atores.name
+
+# 3. Encontre pares de nós com mais do que uma relação entre si.
+
+MATCH (a)-[r]->(b)
+    WITH a, b, COUNT(r) AS relations
+    WHERE relations > 1
+RETURN a.name , b.name, relations;
+
+
+
+# 4. Encontre todos os pares de pessoas que fizeram revisões do mesmo filme.
+//   Apresente os seus nomes e título de cada filme.
+
+match (p1:Person)-[:REVIEWED]->(m)<-[:REVIEWED]-(p2:Person)
+return p1.name , p2.name , m.title
+
+# 5. Encontre todos os pares de atores que atuaram em vários filmes juntos.
+
+MATCH (a1:Person)-[:ACTED_IN]->(m)<-[:ACTED_IN]-(a2:Person)
+    WITH a1, a2, COUNT(m) AS movies
+    WHERE movies > 1
+RETURN a1.name , a2.name, movies;
+
+
+# 6. Determine a idade média do elenco do filme "Apollo 13" no ano do lançamento
+//   do filme.
+
+match (m:Movie{title:"Apollo 13"})<-[:ACTED_IN]-(p:Person)
+return avg(m.released - p.born)
+
+# 7. Encontre os 10 filmes com o elenco mais velho no momento do lançamento do
+//   filme. Apresente o filme e a idade média arredondada a 2 casas decimais, por
+//   ordem decrescente.
+
+match (m:Movie)<-[:ACTED_IN]-(p:Person)
+with m, m.released - p.born as idade
+order by idade desc
+return m.title, round(avg(idade),2) as idade
+
+# 8. Apresente o subgrafo ACTED_IN do filme com o elenco mais novo, no momento
+//   do lançamento do filme.
+
+match (m:Movie)<-[:ACTED_IN]-(p:Person)
+with m, m.released - p.born as idade
+order by idade
+limit 1
+match (m)<-[:ACTED_IN]-(p:Person)
+return m, p
+
+
+# 9. Qual é o caminho mais curto (usando qualquer tipo de relação) entre John
+//   Cusack e Demi Moore?
+
+match p = shortestPath((cusack:Person{name:"John Cusack"})-[*]-(moore:Person{name:"Demi Moore"}))
+return p
+
+# 10. Qual a dimensão caminho mais curto (usando qualquer tipo de relação) entre
+//   Keanu Reeves e Tom Cruise?
+
+match p = shortestPath((keanu:Person{name:"Keanu Reeves"})-[*]-(tom:Person{name:"Tom Cruise"}))
+return point.distance
+
+# 11. Quais são as dimensões do caminho mais curto entre pessoas com nome Jim e
+//    pessoas com nome Kevin?
+
+MATCH p = shortestPath((jim:Person)-[*]-(kevin:Person))
+    WHERE jim.name contains "Jim" AND kevin.name contains "Kevin"
+    limit 1
+RETURN length(p)
+
+
+# 12. Que pessoas têm uma distância 2 para Jim Cash (a distância entre duas pessoas é
+//    o comprimento do caminho mais curto entre eles)?
+
+MATCH (jim:Person{name:"Jim Cash"})-[*2]-(p:Person)
+RETURN p.name
+
+# 13. Qual é a maior distância de uma pessoa para Kevin Bacon?
+
+match path = shortestPath((p:Person)-[*]-(kevin:Person{name:"Kevin Bacon"}))
+    where p <> kevin
+    return p.name , length(path) as dist
+    order by dist desc
+    limit 1
+
+# 14. Qual é a maior distância entre duas pessoas?
+match path = shortestPath((p1:Person)-[*]-(p2:Person))
+    where p1 <> p2
+    return length(path) as maxDistance
+    order by maxDistance desc
+    limit 1
+
+# 15. Qual é a distribuição de distâncias em pares (isto é, para a distância 1, 2, 3, ...,
+//     quantos pares de pessoas têm essa distância um do outro)?
+
+match path = shortestPath((p1:Person)-[*]-(p2:Person))
+    where p1 <> p2
+    RETURN length(path) AS distance, COUNT(*) AS pairs
+    order by distance
+
+# 16. Indique as 10 pessoas com menor distância média em que o caminho entre elas
+//    são relações do tipo ACTED_IN.
+
+match path = shortestPath((p1:Person)-[:ACTED_IN*]-(p2:Person))
+    where p1 <> p2
+    with p1, avg(length(path)) as avgDistance
+    return p1.name , avgDistance
+    ORDER BY avgDistance asc
+    limit 10
+
+
+# 17. Apresente os atores que tiveram pelo menos uma role para personagens com o
+//    prefixo 'Dr.'. O resultado deve ser uma lista com o par “Ator, Lista das roles”.
+
+match (ator:Person)-[r:ACTED_IN]->(m:Movie)
+    with ator, [role in r.roles where role starts with "Dr."] as drRoles
+    where size(drRoles) > 0
+return ator.name ,drRoles
+
+# 18. .. 20. Crie 3 novas perguntas adicionais à base dados (alíneas 18 a 20) e
+//    apresente igualmente a solução de pesquisa para cada questão. Estas não
+//    deverão ser similares às perguntas das alíneas 1 a 17. Será valorizada a
+//    pertinência e o grau de dificuldade das questões. Exemplos extraídos de fontes
+//    públicas, literatura ou documentação não serão considerados.
+
+# 18. Que diretor trabalhou com mais atores diferentes com mais de 50 anos?
+
+match (d:Person)-[:DIRECTED]->(m:Movie)<-[:ACTED_IN]-(a:Person)
+    where m.released - a.born > 50
+    with d, COUNT(DISTINCT a) AS numAtores
+return d.name AS diretor, numAtores
+    order by numAtores DESC
+    limit 1
+
+# 19. Quais são os 5 atores que mais contracenaram com outros atores diferentes,
+//    mas nunca tiveram o mesmpo diretor?
+
+match (a:Person)-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(co:Person)
+    where a <> co
+    and not exists {
+        match (a)-[:ACTED_IN]->(m1:Movie)<-[:DIRECTED]-(d:Person)-[:DIRECTED]->(m2:Movie)<-[:ACTED_IN]-(co)
+        where m1 <> m2
+    }
+    with a, COUNT(DISTINCT co) AS numColegas
+return a.name AS ator, numColegas
+    order BY numColegas DESC
+    limit 5
+
+#
