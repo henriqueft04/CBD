@@ -157,4 +157,19 @@ return a.name AS ator, numColegas
     order BY numColegas DESC
     limit 5
 
-#
+# 20. atores que trabalharam com pelo menos três diretores diferentes,
+// onde cada diretor dirigiu pelo menos dois filmes com o ator
+// e o total de filmes desses diretores com o ator soma pelo menos seis
+
+match (ator:Person)-[:ACTED_IN]->(filme:Movie)<-[:DIRECTED]-(diretor:Person)
+    with ator, diretor, COUNT(DISTINCT filme) AS numFilmes
+    where numFilmes >= 2
+    with ator,
+         COLLECT({diretor: diretor.name, filmesDirigidos: numFilmes}) AS diretores,
+         COUNT(diretor) AS totalDiretores
+    where totalDiretores >= 3
+    with ator, diretores, totalDiretores,
+         REDUCE(total = 0, d IN diretores | total + d.filmesDirigidos) AS totalFilmes
+    where totalFilmes >= 6  // Reduzido de 10 para 6
+return ator.name AS Ator, diretores, totalFilmes
+    order by totalDiretores DESC
