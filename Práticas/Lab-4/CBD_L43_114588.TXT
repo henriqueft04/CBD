@@ -1,0 +1,58 @@
+// 14588
+
+// load
+
+LOAD CSV WITH HEADERS FROM 'file:///git_selection.csv' AS row
+MERGE (employee:User {id: row.svn_id, name: row.real_name})
+MERGE (project:Project {name: row.project_name})
+MERGE (organization:Organization {name: trim(row.organization)})
+MERGE (employee)-[:COMMITTED {num: row.num, role_on_project: row.role_on_project}]->(project)
+MERGE (employee)-[:WORKS_ON]->(organization)
+
+// 1. Liste a informação de cada utilizador.
+match (u:User)
+return u.id AS User_ID, u.name AS User_Name
+
+// 2. Liste o nome de cada user
+
+match(n:User)
+return DISTINCT n.name as UserName
+
+// 3. Liste a informação de cada projeto, no qual tenha participado pelo menos um utilizador.
+
+MATCH (u:User)-[:COMMITTED]->(p:Project)
+RETURN DISTINCT p.name AS ProjectName, COUNT(DISTINCT u) AS TotalParticipants
+
+
+// 4. Liste os utilizadores e total de projetos em que cada um colabora.
+
+MATCH (u:User)-[:COMMITTED]->(p:Project)
+RETURN u.name AS UserName, COUNT(DISTINCT p) AS TotalProjects
+
+
+// 5. Liste os utilizadores e do total de projetos em que cada colabora ordenados por ordem decrescente do total.
+
+MATCH (u:User)-[:COMMITTED]->(p:Project)
+RETURN u.name AS UserName, COUNT(DISTINCT p) AS TotalProjects
+ORDER BY TotalProjects DESC
+
+// 6. Liste projetos e total de membros em cada projeto.
+
+MATCH (u:User)-[:COMMITTED]->(p:Project)
+RETURN p.name AS ProjectName, COUNT(DISTINCT u) AS TotalMembers
+
+// 7. Liste projetos e total de membros com a role "Committer" em cada projeto.
+
+MATCH (u:User)-[r:COMMITTED]->(p:Project)
+WHERE r.role_on_project = "Committer"
+RETURN p.name AS ProjectName, COUNT(DISTINCT u) AS TotalCommitters
+
+// 8. Liste todos os utilizadores que participaram nos mesmo projetos do que o utilizador "atm" (id). Mostre os atributos: nome de "atm", nome utilizador 2, nome do projeto.
+
+MATCH (atm:User {id: 'atm'})-[:COMMITTED]->(p:Project)<-[:COMMITTED]-(other:User)
+RETURN atm.name AS ATM_UserName, other.name AS Other_UserName, p.name AS ProjectName
+
+// 9. Liste todos os utilizadores que participaram com a role "Committer" em projetos em que o utilizador "atm" (id1) participou com a role "PMC".
+
+MATCH (atm:User {id: 'atm'})-[r1:COMMITTED {role_on_project: "PMC"}]->(p:Project)<-[r2:COMMITTED {role_on_project: "Committer"}]-(other:User)
+RETURN atm.name AS ATM_UserName, other.name AS Committer_UserName, p.name AS ProjectName
