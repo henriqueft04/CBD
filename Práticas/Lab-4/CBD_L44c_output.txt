@@ -1,0 +1,1042 @@
+// 114588
+
+// 1. Todos os pokemons e as suas stats
+MATCH (p:Pokemon)
+RETURN p.name AS Name, p.total AS TotalStats
+ORDER BY TotalStats DESC
+
+Name	TotalStats
+//MewtwoMega Mewtwo X	780
+//MewtwoMega Mewtwo Y	780
+//RayquazaMega Rayquaza	780
+//KyogrePrimal Kyogre	770
+//GroudonPrimal Groudon	770
+//Arceus	720
+//SalamenceMega Salamence	700
+//MetagrossMega Metagross	700
+//LatiasMega Latias	700
+//LatiosMega Latios	700
+//GarchompMega Garchomp	700
+//TyranitarMega Tyranitar	700
+//KyuremBlack Kyurem	700
+//KyuremWhite Kyurem	700
+//DiancieMega Diancie	700
+//Xerneas	680
+//Yveltal	680
+//HoopaHoopa Unbound	680
+//Dialga	680
+//Palkia	680
+//GiratinaAltered Forme	680
+//GiratinaOrigin Forme	680
+//Mewtwo	680
+//Reshiram	680
+//Zekrom	680
+//Rayquaza	680
+//Lugia	680
+//Ho-oh	680
+//Slaking	670
+//Regigigas	670
+//Kyogre	670
+//Groudon	670
+//Kyurem	660
+//GyaradosMega Gyarados	640
+//SwampertMega Swampert	635
+//CharizardMega Charizard X	634
+//CharizardMega Charizard Y	634
+//BlastoiseMega Blastoise	630
+//SceptileMega Sceptile	630
+//BlazikenMega Blaziken	630
+//AggronMega Aggron	630
+//VenusaurMega Venusaur	625
+//LucarioMega Lucario	625
+//GardevoirMega Gardevoir	618
+//GalladeMega Gallade	618
+//AerodactylMega Aerodactyl	615
+//AmpharosMega Ampharos	610
+//SteelixMega Steelix	610
+//PinsirMega Pinsir	600
+//Dragonite	600
+//Mew	600
+//ScizorMega Scizor	600
+//HeracrossMega Heracross	600
+//HoundoomMega Houndoom	600
+//Heatran	600
+//Cresselia	600
+//Manaphy	600
+//Darkrai	600
+//ShayminLand Forme	600
+//ShayminSky Forme	600
+//Victini	600
+//Salamence	600
+//Metagross	600
+//Latias	600
+//Latios	600
+//Jirachi	600
+//DeoxysNormal Forme	600
+//DeoxysAttack Forme	600
+//DeoxysDefense Forme	600
+//DeoxysSpeed Forme	600
+//Garchomp	600
+//Goodra	600
+//Zygarde50% Forme	600
+//Diancie	600
+//HoopaHoopa Confined	600
+//Volcanion	600
+//Tyranitar	600
+//Celebi	600
+//Hydreigon	600
+//LandorusIncarnate Forme	600
+//LandorusTherian Forme	600
+//MeloettaAria Forme	600
+//MeloettaPirouette Forme	600
+//Genesect	600
+//GengarMega Gengar	600
+//AbomasnowMega Abomasnow	594
+//AlakazamMega Alakazam	590
+//SlowbroMega Slowbro	590
+//KangaskhanMega Kangaskhan	590
+//AltariaMega Altaria	590
+//Raikou	580
+//Entei	580
+//Suicune	580
+//GlalieMega Glalie	580
+//Regirock	580
+//Regice	580
+//Registeel	580
+//LopunnyMega Lopunny	580
+//Articuno	580
+//Zapdos	580
+//Moltres	580
+//Uxie	580
+//Mesprit	580
+//Azelf	580
+//Cobalion	580
+//Terrakion	580
+//Virizion	580
+//TornadusIncarnate Forme	580
+//TornadusTherian Forme	580
+//ThundurusIncarnate Forme	580
+//ThundurusTherian Forme	580
+//KeldeoOrdinary Forme	580
+//KeldeoResolute Forme	580
+//PidgeotMega Pidgeot	579
+//ManectricMega Manectric	575
+//Archeops	567
+//AbsolMega Absol	565
+//SharpedoMega Sharpedo	560
+//CameruptMega Camerupt	560
+//Arcanine	555
+//BanetteMega Banette	555
+//Florges	552
+//Volcarona	550
+//Togekiss	545
+//AudinoMega Audino	545
+//Electivire	540
+//Magmortar	540
+//DarmanitanZen Mode	540
+//Haxorus	540
+//Gyarados	540
+//Snorlax	540
+//Kingdra	540
+//Blissey	540
+//Milotic	540
+//Swampert	535
+//Lapras	535
+//Crobat	535
+//Magnezone	535
+//Rhyperior	535
+//Tangrowth	535
+//Porygon-Z	535
+//Vanilluxe	535
+//Noivern	535
+//Typhlosion	534
+//Delphox	534
+//Infernape	534
+//Charizard	534
+//Gogoat	531
+//Chesnaught	530
+//Greninja	530
+//Sceptile	530
+//Blaziken	530
+//Aggron	530
+//Mamoswine	530
+//Blastoise	530
+//Feraligatr	530
+//Walrein	530
+//Empoleon	530
+//Serperior	528
+//Emboar	528
+//Samurott	528
+//Leafeon	525
+//Glaceon	525
+//Probopass	525
+//Dusknoir	525
+//Sylveon	525
+//Torterra	525
+//Lucario	525
+//Hippowdon	525
+//Vaporeon	525
+//Jolteon	525
+//Flareon	525
+//Meganium	525
+//Espeon	525
+//Umbreon	525
+//Venusaur	525
+//Cloyster	525
+//Luxray	523
+//Tyrantrum	521
+//Aurorus	521
+//Flygon	520
+//RotomHeat Rotom	520
+//RotomWash Rotom	520
+//RotomFrost Rotom	520
+//RotomFan Rotom	520
+//RotomMow Rotom	520
+//Klinklang	520
+//Chandelure	520
+//AegislashBlade Forme	520
+//AegislashShield Forme	520
+//Exeggutor	520
+//Starmie	520
+//Krookodile	519
+//Gallade	518
+//Gardevoir	518
+//Lickilicky	515
+//Yanmega	515
+//Gigalith	515
+//Roserade	515
+//Aerodactyl	515
+//Porygon2	515
+//Tentacruel	515
+//Eelektross	515
+//Avalugg	514
+//Mienshao	510
+//Braviary	510
+//Mandibuzz	510
+//MedichamMega Medicham	510
+//Weavile	510
+//Gliscor	510
+//Zoroark	510
+//Poliwrath	510
+//Ampharos	510
+//Steelix	510
+//Seismitoad	509
+//Excadrill	508
+//Pyroar	507
+//Conkeldurr	505
+//Shuckle	505
+//Honchkrow	505
+//Nidoqueen	505
+//Nidoking	505
+//Ninetales	505
+//Machamp	505
+//Golduck	500
+//Alakazam	500
+//Rapidash	500
+//Muk	500
+//Gengar	500
+//Barbaracle	500
+//Clawitzer	500
+//Hawlucha	500
+//Carbink	500
+//Wailord	500
+//Claydol	500
+//Bronzong	500
+//Drapion	500
+//Stoutland	500
+//Leavanny	500
+//Scyther	500
+//Pinsir	500
+//Politoed	500
+//Scizor	500
+//Heracross	500
+//Ursaring	500
+//Houndoom	500
+//Donphan	500
+//Talonflame	499
+//Simisage	498
+//Simisear	498
+//Simipour	498
+//Drifblim	498
+//Zebstrika	497
+//Carracosta	495
+//Magmar	495
+//Omastar	495
+//Kabutops	495
+//BeedrillMega Beedrill	495
+//Golem	495
+//Rampardos	495
+//Bastiodon	495
+//Floatzel	495
+//Mismagius	495
+//Cradily	495
+//Armaldo	495
+//Escavalier	495
+//Accelgor	495
+//Pangoro	495
+//Dragalge	494
+//GourgeistAverage Size	494
+//GourgeistSmall Size	494
+//GourgeistLarge Size	494
+//GourgeistSuper Size	494
+//Abomasnow	494
+//Toxicroak	490
+//Reuniclus	490
+//Bisharp	490
+//Bouffalant	490
+//Sigilyph	490
+//Gothitelle	490
+//Electabuzz	490
+//Tauros	490
+//Bellossom	490
+//Slowking	490
+//Vileplume	490
+//Victreebel	490
+//Slowbro	490
+//Weezing	490
+//Kangaskhan	490
+//Miltank	490
+//Exploud	490
+//Altaria	490
+//Ferrothorn	489
+//Unfezant	488
+//Scrafty	488
+//Musharna	487
+//Scolipede	485
+//Beheeyem	485
+//Beartic	485
+//Cryogonal	485
+//Druddigon	485
+//Huntail	485
+//Gorebyss	485
+//Relicanth	485
+//Staraptor	485
+//Spiritomb	485
+//Raichu	485
+//Rhydon	485
+//Heatmor	484
+//Durant	484
+//Golurk	483
+//Clefable	483
+//Hypno	483
+//Cofagrigus	483
+//Malamar	482
+//Ambipom	482
+//Heliolisk	481
+//Jellicent	480
+//Slurpuff	480
+//Froslass	480
+//Phione	480
+//Whimsicott	480
+//Lilligant	480
+//DarmanitanStandard Mode	480
+//Electrode	480
+//Ludicolo	480
+//Shiftry	480
+//SableyeMega Sableye	480
+//MawileMega Mawile	480
+//Glalie	480
+//Lopunny	480
+//Octillery	480
+//Pidgeot	479
+//Skuntank	479
+//Gastrodon	475
+//Sawsbuck	475
+//Crustle	475
+//Dewgong	475
+//Kingler	475
+//Manectric	475
+//Cacturne	475
+//Hariyama	474
+//Vespiquen	474
+//Trevenant	474
+//Garbodor	474
+//Swanna	473
+//Galvantula	472
+//Furfrou	472
+//Stunfisk	471
+//Alomomola	470
+//Cinccino	470
+//Xatu	470
+//Torkoal	470
+//Grumpig	470
+//Klefki	470
+//Whiscash	468
+//Crawdaunt	468
+//Swalot	467
+//MeowsticMale	466
+//MeowsticFemale	466
+//Forretress	465
+//Mantine	465
+//Skarmory	465
+//Stantler	465
+//Throh	465
+//Sawk	465
+//Magneton	465
+//Absol	465
+//Amoonguss	464
+//Aromatisse	462
+//Maractus	461
+//Basculin	460
+//Tropius	460
+//Lumineon	460
+//Breloom	460
+//Sharpedo	460
+//Camerupt	460
+//Mr. Mime	460
+//Lanturn	460
+//Jumpluff	460
+//Dodrio	460
+//Zangoose	458
+//Seviper	458
+//Ninjask	456
+//Hitmontop	455
+//Golbat	455
+//Primeape	455
+//Hitmonlee	455
+//Hitmonchan	455
+//Banette	455
+//Dusclops	455
+//Jynx	455
+//Girafarig	455
+//Carnivine	454
+//Purugly	452
+//Sliggoo	452
+//Sandslash	450
+//Venomoth	450
+//Chansey	450
+//Cherrim	450
+//Seaking	450
+//Granbull	450
+//Piloswine	450
+//Doublade	448
+//Liepard	446
+//Audino	445
+//Noctowl	442
+//Fearow	442
+//Persian	440
+//Seadra	440
+//Klang	440
+//Vigoroth	440
+//Lunatone	440
+//Solrock	440
+//Rotom	440
+//Kecleon	440
+//Arbok	438
+//Wigglytuff	435
+//Tangela	435
+//Misdreavus	435
+//Dedenne	431
+//Quagsire	430
+//Gligar	430
+//Qwilfish	430
+//Sneasel	430
+//Swellow	430
+//Pelipper	430
+//Lairon	430
+//Emolga	428
+//Chimecho	425
+//Sunflora	425
+//Swoobat	425
+//Marowak	425
+//WormadamPlant Cloak	424
+//WormadamSandy Cloak	424
+//WormadamTrash Cloak	424
+//Mothim	424
+//Diggersby	423
+//Zweilous	420
+//Shelgon	420
+//Metang	420
+//Mightyena	420
+//Linoone	420
+//Castform	420
+//Watchog	420
+//Dragonair	420
+//Azumarill	420
+//Pignite	418
+//Furret	415
+//Dunsparce	415
+//Masquerain	414
+//Raticate	413
+//Servine	413
+//Dewott	413
+//Chatot	411
+//Vivillon	411
+//Fraxure	410
+//Sealeo	410
+//Bibarel	410
+//Gabite	410
+//Ponyta	410
+//Sudowoodo	410
+//Magcargo	410
+//Pupitar	410
+//Medicham	410
+//Braixen	409
+//Eelektrik	405
+//Quilladin	405
+//Frogadier	405
+//Grovyle	405
+//Combusken	405
+//Marshtomp	405
+//Plusle	405
+//Minun	405
+//Gurdurr	405
+//Bayleef	405
+//Quilava	405
+//Croconaw	405
+//Togetic	405
+//Murkrow	405
+//Wobbuffet	405
+//Grotle	405
+//Monferno	405
+//Prinplup	405
+//Pachirisu	405
+//Ivysaur	405
+//Charmeleon	405
+//Wartortle	405
+//Parasect	405
+//Dugtrio	405
+//Machoke	405
+//Haunter	405
+//Archen	401
+//Volbeat	400
+//Illumise	400
+//Roselia	400
+//Wailmer	400
+//Kadabra	400
+//Butterfree	395
+//Beedrill	395
+//Gloom	395
+//Vanillish	395
+//Beautifly	395
+//Porygon	395
+//Ledian	390
+//Ariados	390
+//Yanma	390
+//Weepinbell	390
+//Graveler	390
+//Boldore	390
+//Gothorita	390
+//Munchlax	390
+//Poliwhirl	385
+//Onix	385
+//Lickitung	385
+//Dustox	385
+//Kricketune	384
+//Palpitoad	384
+//Fletchinder	382
+//Delcatty	380
+//Sableye	380
+//Mawile	380
+//Corsola	380
+//Swadloon	380
+//Nosepass	375
+//Floette	371
+//Lampent	370
+//Vullaby	370
+//Herdier	370
+//Duosion	370
+//Litleo	369
+//Magby	365
+//Flaaffy	365
+//Nidorina	365
+//Nidorino	365
+//Luxio	363
+//Tyrunt	362
+//Amaura	362
+//Larvesta	360
+//Whirlipede	360
+//Elekid	360
+//Loudred	360
+//Spinda	360
+//Aipom	360
+//Tranquill	358
+//Tirtouga	355
+//Espurr	355
+//Omanyte	355
+//Kabuto	355
+//Lileep	355
+//Anorith	355
+//Farfetch'd	352
+//Krokorok	351
+//Growlithe	350
+//Cranidos	350
+//Shieldon	350
+//Buneary	350
+//Mienfoo	350
+//Rufflet	350
+//Skiddo	350
+//Pidgeotto	349
+//Pancham	348
+//Scraggy	348
+//Drifloon	348
+//Clamperl	345
+//Mantyke	345
+//Rhyhorn	345
+//Spritzee	341
+//Swirlix	341
+//Pawniard	340
+//Koffing	340
+//Staravia	340
+//Staryu	340
+//Skiploom	340
+//Lombre	340
+//Nuzleaf	340
+//Vibrava	340
+//Unown	336
+//Tentacool	335
+//PumpkabooAverage Size	335
+//PumpkabooSmall Size	335
+//PumpkabooLarge Size	335
+//PumpkabooSuper Size	335
+//Deerling	335
+//Frillish	335
+//Elgyem	335
+//Cacnea	335
+//Snover	334
+//Luvdisc	330
+//Buizel	330
+//Hippopotas	330
+//Skorupi	330
+//Finneon	330
+//Chinchou	330
+//Teddiursa	330
+//Delibird	330
+//Houndour	330
+//Phanpy	330
+//Voltorb	330
+//Aron	330
+//Spoink	330
+//Zorua	330
+//Clauncher	330
+//Stunky	329
+//Trubbish	329
+//Drilbur	328
+//Drowzee	328
+//Magnemite	325
+//Seel	325
+//Grimer	325
+//Krabby	325
+//Exeggcute	325
+//Honedge	325
+//Eevee	325
+//Dwebble	325
+//Shellos	325
+//Clefairy	323
+//Pikachu	320
+//Oddish	320
+//Psyduck	320
+//Cubone	320
+//Goldeen	320
+//Axew	320
+//Skrelp	320
+//Natu	320
+//Joltik	319
+//Bulbasaur	318
+//Turtwig	318
+//Chikorita	318
+//Pansage	316
+//Pansear	316
+//Panpour	316
+//Darumaka	315
+//Slowpoke	315
+//Karrablast	315
+//Froakie	314
+//Squirtle	314
+//Totodile	314
+//Piplup	314
+//Chespin	313
+//Woobat	313
+//Sewaddle	310
+//Glameow	310
+//Mime Jr.	310
+//Abra	310
+//Doduo	310
+//Gastly	310
+//Treecko	310
+//Torchic	310
+//Mudkip	310
+//Swablu	310
+//Phantump	309
+//Charmander	309
+//Cyndaquil	309
+//Chimchar	309
+//Corphish	308
+//Snivy	308
+//Tepig	308
+//Oshawott	308
+//Fennekin	307
+//Binacle	306
+//Ducklett	305
+//Vanillite	305
+//Ferroseed	305
+//Cubchoo	305
+//Shelmet	305
+//Timburr	305
+//Smoochum	305
+//Carvanha	305
+//Numel	305
+//Venonat	305
+//Mankey	305
+//Machop	305
+//Shellder	305
+//Bergmite	304
+//Yamask	303
+//Golett	303
+//Flabébé	303
+//Gulpin	302
+//Larvitar	300
+//Baltoy	300
+//Minccino	300
+//Snorunt	300
+//Bagon	300
+//Beldum	300
+//Bronzor	300
+//Gible	300
+//Croagunk	300
+//Goomy	300
+//Klink	300
+//Deino	300
+//Sandshrew	300
+//Poliwag	300
+//Bellsprout	300
+//Geodude	300
+//Dratini	300
+//Snubbull	300
+//Remoraid	300
+//Vulpix	299
+//Horsea	295
+//Shuppet	295
+//Duskull	295
+//Shroomish	295
+//Electrike	295
+//Blitzle	295
+//Tympole	294
+//Foongus	294
+//Munna	292
+//Sandile	292
+//Gothita	290
+//Solosis	290
+//Trapinch	290
+//Meowth	290
+//Spheal	290
+//Bonsly	290
+//Pineco	290
+//Helioptile	289
+//Inkay	288
+//Ekans	288
+//Barboach	288
+//Ditto	288
+//Paras	285
+//Chingling	285
+//Riolu	285
+//Purrloin	281
+//Roggenrola	280
+//Cottonee	280
+//Petilil	280
+//Budew	280
+//Mareep	280
+//Slakoth	280
+//Meditite	280
+//Kirlia	278
+//Fletchling	278
+//Tynamo	275
+//Litwick	275
+//Lillipup	275
+//Cherubi	275
+//Nidoran♀	275
+//Nidoran♂	273
+//Jigglypuff	270
+//Taillow	270
+//Wingull	270
+//Surskit	269
+//Nincada	266
+//Diglett	265
+//Ledyba	265
+//Pidove	264
+//Shinx	263
+//Hoothoot	262
+//Spearow	262
+//Wynaut	260
+//Skitty	260
+//Venipede	260
+//Patrat	255
+//Rattata	253
+//Pidgey	251
+//Bidoof	250
+//Spinarak	250
+//Marill	250
+//Hoppip	250
+//Slugma	250
+//Swinub	250
+//Smeargle	250
+//Togepi	245
+//Zubat	245
+//Starly	245
+//Noibat	245
+//Combee	244
+//Zigzagoon	240
+//Whismur	240
+//Makuhita	237
+//Bunnelby	237
+//Shedinja	236
+//Burmy	224
+//Happiny	220
+//Poochyena	220
+//Lotad	220
+//Seedot	220
+//Cleffa	218
+//Sentret	215
+//Spewpa	213
+//Igglybuff	210
+//Wooper	210
+//Tyrogue	210
+//Pichu	205
+//Silcoon	205
+//Cascoon	205
+//Metapod	205
+//Kakuna	205
+//Magikarp	200
+//Scatterbug	200
+//Feebas	200
+//Ralts	198
+//Wurmple	195
+//Caterpie	195
+//Weedle	195
+//Kricketot	194
+//Azurill	190
+//Sunkern	180
+
+
+// 2. contar os numero de pokemons por tipo
+
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t:Type)
+RETURN t.name AS Type, COUNT(p) AS NumberOfPokemon
+ORDER BY NumberOfPokemon DESC
+
+//Water	126
+//Normal	102
+//Flying	101
+//Grass	95
+//Psychic	90
+//Bug	72
+//Ground	67
+//Fire	64
+//Poison	62
+//Rock	58
+//Fighting	53
+//Dark	51
+//Dragon	50
+//Electric	50
+//Steel	49
+//Ghost	46
+//Fairy	40
+//Ice	38
+
+// 3. Número de todos os lendários
+MATCH (p:Pokemon)
+WHERE p.legendary = true
+RETURN COUNT(p) AS NumberOfLegendaryPokemon
+
+// 65
+
+// 4. Pokémon com a maior média de velocidade por tipo e geração
+
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t:Type), (p)-[:BELONGS_TO]->(g:Generation)
+WITH t.name AS Type, g.number AS Generation, p, p.speed AS Speed
+WITH Type, Generation, p.name AS Pokemon, Speed
+ORDER BY Type, Generation, Speed DESC
+WITH Type, Generation, COLLECT({Pokemon: Pokemon, Speed: Speed}) AS TopSpeedPokemon
+RETURN Type, Generation, TopSpeedPokemon[0] AS FastestPokemon
+ORDER BY Generation, Type
+
+//Type	Generation	FastestPokemon
+//Bug	1	{Speed: 145, Pokemon: BeedrillMega Beedrill}
+//Dark	1	{Speed: 81, Pokemon: GyaradosMega Gyarados}
+//Dragon	1	{Speed: 100, Pokemon: CharizardMega Charizard X}
+//Electric	1	{Speed: 140, Pokemon: Electrode}
+//Fairy	1	{Speed: 90, Pokemon: Mr. Mime}
+//Fighting	1	{Speed: 130, Pokemon: MewtwoMega Mewtwo X}
+//Fire	1	{Speed: 105, Pokemon: Rapidash}
+//Flying	1	{Speed: 150, Pokemon: AerodactylMega Aerodactyl}
+//Ghost	1	{Speed: 130, Pokemon: GengarMega Gengar}
+//Grass	1	{Speed: 80, Pokemon: Venusaur}
+//Ground	1	{Speed: 120, Pokemon: Dugtrio}
+//Ice	1	{Speed: 95, Pokemon: Jynx}
+//Normal	1	{Speed: 121, Pokemon: PidgeotMega Pidgeot}
+//Poison	1	{Speed: 145, Pokemon: BeedrillMega Beedrill}
+//Psychic	1	{Speed: 150, Pokemon: AlakazamMega Alakazam}
+//Rock	1	{Speed: 150, Pokemon: AerodactylMega Aerodactyl}
+//Steel	1	{Speed: 70, Pokemon: Magneton}
+//Water	1	{Speed: 115, Pokemon: Starmie}
+//Bug	2	{Speed: 95, Pokemon: Yanma}
+//Dark	2	{Speed: 115, Pokemon: Sneasel}
+//Dragon	2	{Speed: 85, Pokemon: Kingdra}
+//Electric	2	{Speed: 115, Pokemon: Raikou}
+//Fairy	2	{Speed: 50, Pokemon: Azumarill}
+//Fighting	2	{Speed: 85, Pokemon: Heracross}
+//Fire	2	{Speed: 115, Pokemon: HoundoomMega Houndoom}
+//Flying	2	{Speed: 130, Pokemon: Crobat}
+//Ghost	2	{Speed: 85, Pokemon: Misdreavus}
+//Grass	2	{Speed: 110, Pokemon: Jumpluff}
+//Ground	2	{Speed: 85, Pokemon: Gligar}
+//Ice	2	{Speed: 115, Pokemon: Sneasel}
+//Normal	2	{Speed: 100, Pokemon: Miltank}
+//Poison	2	{Speed: 130, Pokemon: Crobat}
+//Psychic	2	{Speed: 110, Pokemon: Espeon}
+//Rock	2	{Speed: 71, Pokemon: TyranitarMega Tyranitar}
+//Steel	2	{Speed: 75, Pokemon: ScizorMega Scizor}
+//Water	2	{Speed: 85, Pokemon: Qwilfish}
+//Bug	3	{Speed: 160, Pokemon: Ninjask}
+//Dark	3	{Speed: 115, Pokemon: AbsolMega Absol}
+//Dragon	3	{Speed: 145, Pokemon: SceptileMega Sceptile}
+//Electric	3	{Speed: 135, Pokemon: ManectricMega Manectric}
+//Fairy	3	{Speed: 100, Pokemon: GardevoirMega Gardevoir}
+//Fighting	3	{Speed: 100, Pokemon: BlazikenMega Blaziken}
+//Fire	3	{Speed: 100, Pokemon: BlazikenMega Blaziken}
+//Flying	3	{Speed: 160, Pokemon: Ninjask}
+//Ghost	3	{Speed: 75, Pokemon: BanetteMega Banette}
+//Grass	3	{Speed: 145, Pokemon: SceptileMega Sceptile}
+//Ground	3	{Speed: 100, Pokemon: Flygon}
+//Ice	3	{Speed: 100, Pokemon: GlalieMega Glalie}
+//Normal	3	{Speed: 125, Pokemon: Swellow}
+//Poison	3	{Speed: 65, Pokemon: Dustox}
+//Psychic	3	{Speed: 180, Pokemon: DeoxysSpeed Forme}
+//Rock	3	{Speed: 75, Pokemon: Anorith}
+//Steel	3	{Speed: 110, Pokemon: MetagrossMega Metagross}
+//Water	3	{Speed: 105, Pokemon: SharpedoMega Sharpedo}
+//Bug	4	{Speed: 95, Pokemon: Yanmega}
+//Dark	4	{Speed: 125, Pokemon: Weavile}
+//Dragon	4	{Speed: 102, Pokemon: Garchomp}
+//Electric	4	{Speed: 95, Pokemon: Pachirisu}
+//Fairy	4	{Speed: 80, Pokemon: Togekiss}
+//Fighting	4	{Speed: 135, Pokemon: LopunnyMega Lopunny}
+//Fire	4	{Speed: 108, Pokemon: Infernape}
+//Flying	4	{Speed: 127, Pokemon: ShayminSky Forme}
+//Ghost	4	{Speed: 110, Pokemon: Froslass}
+//Grass	4	{Speed: 127, Pokemon: ShayminSky Forme}
+//Ground	4	{Speed: 102, Pokemon: Garchomp}
+//Ice	4	{Speed: 125, Pokemon: Weavile}
+//Normal	4	{Speed: 135, Pokemon: LopunnyMega Lopunny}
+//Poison	4	{Speed: 95, Pokemon: Drapion}
+//Psychic	4	{Speed: 115, Pokemon: Azelf}
+//Rock	4	{Speed: 58, Pokemon: Cranidos}
+//Steel	4	{Speed: 112, Pokemon: LucarioMega Lucario}
+//Water	4	{Speed: 115, Pokemon: Floatzel}
+//Bug	5	{Speed: 145, Pokemon: Accelgor}
+//Dark	5	{Speed: 106, Pokemon: Liepard}
+//Dragon	5	{Speed: 98, Pokemon: Hydreigon}
+//Electric	5	{Speed: 116, Pokemon: Zebstrika}
+//Fairy	5	{Speed: 116, Pokemon: Whimsicott}
+//Fighting	5	{Speed: 128, Pokemon: MeloettaPirouette Forme}
+//Fire	5	{Speed: 101, Pokemon: Simisear}
+//Flying	5	{Speed: 121, Pokemon: TornadusTherian Forme}
+//Ghost	5	{Speed: 80, Pokemon: Chandelure}
+//Grass	5	{Speed: 116, Pokemon: Whimsicott}
+//Ground	5	{Speed: 101, Pokemon: LandorusIncarnate Forme}
+//Ice	5	{Speed: 105, Pokemon: Cryogonal}
+//Normal	5	{Speed: 128, Pokemon: MeloettaPirouette Forme}
+//Poison	5	{Speed: 112, Pokemon: Scolipede}
+//Psychic	5	{Speed: 114, Pokemon: Swoobat}
+//Rock	5	{Speed: 110, Pokemon: Archeops}
+//Steel	5	{Speed: 109, Pokemon: Durant}
+//Water	5	{Speed: 108, Pokemon: KeldeoOrdinary Forme}
+//Bug	6	{Speed: 89, Pokemon: Vivillon}
+//Dark	6	{Speed: 122, Pokemon: Greninja}
+//Dragon	6	{Speed: 123, Pokemon: Noivern}
+//Electric	6	{Speed: 109, Pokemon: Heliolisk}
+//Fairy	6	{Speed: 110, Pokemon: DiancieMega Diancie}
+//Fighting	6	{Speed: 118, Pokemon: Hawlucha}
+//Fire	6	{Speed: 126, Pokemon: Talonflame}
+//Flying	6	{Speed: 126, Pokemon: Talonflame}
+//Ghost	6	{Speed: 99, Pokemon: GourgeistSmall Size}
+//Grass	6	{Speed: 99, Pokemon: GourgeistSmall Size}
+//Ground	6	{Speed: 95, Pokemon: Zygarde50% Forme}
+//Ice	6	{Speed: 58, Pokemon: Aurorus}
+//Normal	6	{Speed: 109, Pokemon: Heliolisk}
+//Poison	6	{Speed: 44, Pokemon: Dragalge}
+//Psychic	6	{Speed: 104, Pokemon: Delphox}
+//Rock	6	{Speed: 110, Pokemon: DiancieMega Diancie}
+//Steel	6	{Speed: 75, Pokemon: Klefki}
+//Water	6	{Speed: 122, Pokemon: Greninja}
+
+
+// 5. Número de pokemons por geração
+
+MATCH (p:Pokemon)-[:BELONGS_TO]->(g:Generation)
+RETURN g.number AS Generation, COUNT(p) AS NumberOfPokemon
+ORDER BY Generation
+
+//1	166
+//2	106
+//3	160
+//4	121
+//5	165
+//6	82
+
+// 6. Top5 pokemnos com mais HP e os seus tipos
+
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t:Type)
+RETURN p.name AS Pokemon, p.hp AS HP, COLLECT(t.name) AS Types
+ORDER BY HP DESC
+LIMIT 5
+
+//"Blissey"	255	["Normal"]
+//"Chansey"	250	["Normal"]
+//"Wobbuffet"	190	["Psychic"]
+//"Wailord"	170	["Water"]
+//"Alomomola"	165	["Water"]
+
+// 7. Todos os pokemons que partilham pelo menos 2 tipos
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t1:Type)-[:HAS_TYPE]->(t2:Type)
+WITH p, COLLECT(t1.name) AS t1, COLLECT(t2.name) AS t2
+WHERE SIZE(t1) > 1 AND SIZE(t2) > 1
+RETURN p.name AS Pokemon, t1, t2
+
+// 8. Os pokemons com mais de 100 de attack de cada tipo , que têm mais de 1 tipo e são de gerações diferentes
+
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t:Type),
+      (p)-[:BELONGS_TO]->(g:Generation)
+WHERE p.attack > 100
+WITH p, g, COLLECT(DISTINCT t.name) AS types
+WHERE SIZE(types) > 1
+RETURN p.name AS Pokemon,p.attack AS Attack, types AS Types, g.number AS Generation
+ORDER BY Attack DESC
+
+// 9. os pokemons mais defensivos de cada geração e o seu tipo
+
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t:Type), (p)-[:BELONGS_TO]->(g:Generation)
+WITH g.number AS Generation, p, COLLECT(t.name) AS Types,
+     (p.defense + p.special_defense) AS TotalDefense
+ORDER BY Generation, TotalDefense DESC
+WITH Generation, Types, p.name AS Pokemon, TotalDefense
+ORDER BY Generation, TotalDefense DESC
+WITH Generation, COLLECT({Pokemon: Pokemon, TotalDefense: TotalDefense, Types: Types}) AS TopDefenders
+RETURN Generation, TopDefenders[0..3] AS Top3DefendersPerGeneration
+
+//Generation	Top3DefendersPerGeneration
+//1	[{Types: [Grass, Poison], Pokemon: Bulbasaur, TotalDefense: null}, {Types: [Grass, Poison], Pokemon: Ivysaur, TotalDefense: null}, {Types: [Grass, Poison], Pokemon: Venusaur, TotalDefense: null}]
+//2	[{Types: [Grass], Pokemon: Chikorita, TotalDefense: null}, {Types: [Grass], Pokemon: Bayleef, TotalDefense: null}, {Types: [Grass], Pokemon: Meganium, TotalDefense: null}]
+//3	[{Types: [Grass], Pokemon: Treecko, TotalDefense: null}, {Types: [Grass], Pokemon: Grovyle, TotalDefense: null}, {Types: [Grass], Pokemon: Sceptile, TotalDefense: null}]
+//4	[{Types: [Grass], Pokemon: Turtwig, TotalDefense: null}, {Types: [Grass], Pokemon: Grotle, TotalDefense: null}, {Types: [Grass, Ground], Pokemon: Torterra, TotalDefense: null}]
+//5	[{Types: [Fire, Psychic], Pokemon: Victini, TotalDefense: null}, {Types: [Grass], Pokemon: Snivy, TotalDefense: null}, {Types: [Grass], Pokemon: Servine, TotalDefense: null}]
+//6	[{Types: [Grass], Pokemon: Chespin, TotalDefense: null}, {Types: [Grass], Pokemon: Quilladin, TotalDefense: null}, {Types: [Grass, Fighting], Pokemon: Chesnaught, TotalDefense: null}]
+
+// 10. Pokémon de dupla tipagem com maior diferença entre ataque e ataque especial em cada geração
+
+MATCH (p:Pokemon)-[:HAS_TYPE]->(t:Type), (p)-[:BELONGS_TO]->(g:Generation)
+WITH p, g, COLLECT(DISTINCT t.name) AS Types,
+     ABS(p.attack - p.special_attack) AS AttackDifference
+WHERE SIZE(Types) = 2
+WITH g.number AS Generation, Types, p.name AS Pokemon, AttackDifference
+ORDER BY Generation, AttackDifference DESC
+WITH Generation, COLLECT({Pokemon: Pokemon, Types: Types, AttackDifference: AttackDifference}) AS TopAttackDiff
+RETURN Generation, TopAttackDiff[0] AS PokemonWithHighestAttackDifference
+
+//Generation	PokemonWithHighestAttackDifference
+//1	{Types: [Grass, Poison], AttackDifference: null, Pokemon: Bulbasaur}
+//2	{Types: [Flying, Normal], AttackDifference: null, Pokemon: Hoothoot}
+//3	{Types: [Grass, Dragon], AttackDifference: null, Pokemon: SceptileMega Sceptile}
+//4	{Types: [Grass, Ground], AttackDifference: null, Pokemon: Torterra}
+//5	{Types: [Fire, Psychic], AttackDifference: null, Pokemon: Victini}
+//6	{Types: [Grass, Fighting], AttackDifference: null, Pokemon: Chesnaught}
