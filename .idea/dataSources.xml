@@ -16,7 +16,7 @@
     <data-source source="LOCAL" name="cassandra" uuid="e3c990c5-d4b7-4049-bebb-9e21e9605dd1">
       <driver-ref>cassandra</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.ing.data.cassandra.jdbc.CassandraDriver</jdbc-driver>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
       <jdbc-url>jdbc:cassandra://172.20.0.2:9042</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
